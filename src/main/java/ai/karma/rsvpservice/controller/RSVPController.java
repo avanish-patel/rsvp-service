@@ -29,5 +29,10 @@ public class RSVPController {
         return rsvpService.getAllRsvp();
     }
 
+    @DeleteMapping("/rsvp/{id}")
+    public void deleteRsvp(@PathVariable("id") long id) {
+        rsvpService.deleteRsvp(id);
+    }
+
 
 }

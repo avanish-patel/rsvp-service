@@ -22,4 +22,8 @@ public class RSVPService {
     public List<RSVP> getAllRsvp() {
         return (List<RSVP>) rsvpRepository.findAll();
     }
+
+    public void deleteRsvp(long id) {
+        rsvpRepository.deleteById(id);
+    }
 }
