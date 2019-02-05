@@ -13,16 +13,16 @@ public class RSVP {
     private long id;
     private String name;
     private int number;
-    private boolean isComing;
+    private boolean iscoming;
 
     public RSVP() {
     }
 
-    public RSVP(@NotNull long id, String name, int number, boolean isComing) {
+    public RSVP(@NotNull long id, String name, int number, boolean iscoming) {
         this.id = id;
         this.name = name;
         this.number = number;
-        this.isComing = isComing;
+        this.iscoming = iscoming;
     }
 
     public long getId() {
@@ -49,11 +49,11 @@ public class RSVP {
         this.number = number;
     }
 
-    public boolean isComing() {
-        return isComing;
+    public boolean isIscoming() {
+        return iscoming;
     }
 
-    public void setComing(boolean coming) {
-        isComing = coming;
+    public void setIscoming(boolean iscoming) {
+        this.iscoming = iscoming;
     }
 }
