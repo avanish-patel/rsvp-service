@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "/karma/v1")
+@CrossOrigin
 public class RSVPController {
 
 
