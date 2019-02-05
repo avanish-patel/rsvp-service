@@ -1,8 +1,0 @@
---- 
-applications:
-- name: rsvp-service
-host: springcalcapp
-memory: 1024M 
-buildpack: java_buildpack 
-domain: cfapps.io 
-path: ./target/rsvp-service-0.0.1-SNAPSHOT.jar
